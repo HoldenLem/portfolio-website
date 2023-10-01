@@ -42,7 +42,7 @@ export const Abbout = () => {
          I have honed my skills in designing, implementing, and maintaining Java-based applications that deliver real value to users and businesses alike.
           </p>
 
-          <a href='#contacts' className='btn btn-primary'>Let's Talk</a>
+          <a href='#contacts' className='btn btn primary'>Let's Talk</a>
 
         </div>
       </div>

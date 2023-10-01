@@ -106,7 +106,9 @@ img {
   width: 100%;
   object-fit: cover;
 }
-
+p {
+  text-align: start;
+}
 /*==================Media Queries=======================*/
 
 @media screen and (max-width: 1024px) {
