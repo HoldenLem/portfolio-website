@@ -1,5 +1,5 @@
 import React from 'react'
-import portfolio from '../../assets/cv.pdf'
+import portfolio from '../../assets/cve.pdf'
 
 export const CTA = () => {
   return (
