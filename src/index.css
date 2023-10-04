@@ -58,7 +58,9 @@ section {
   margin-top: 8rem;
   height: 100vh;
   text-align: center;
-  padding: 5rem;
+  padding-top: 7rem;
+  overflow: hidden;
+
 }
 
 section > h2, section > h5 {
@@ -119,8 +121,10 @@ img {
     width: var(--conteiner-width-md);
   }
 
+
   section{
     margin: 6rem;
+    height: unset;
   }
 }
 
@@ -129,6 +133,11 @@ img {
 @media screen and (max-width: 600px) {
   .container{
     width: var(--conteiner-width-sm);
+  
+  }
+
+  section {
+    height: 100%;
   }
 
   section > h2 {

@@ -60,7 +60,7 @@
 
 @media screen and (max-width: 600px) {
     .container-service {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 1.5rem;
     }
 
@@ -74,7 +74,7 @@
         size: 0.5rem;
     }
     .service {
-        height: fit-content;
+        height: fit-content1;
 
     }
     .service_list {

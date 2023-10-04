@@ -1,16 +1,9 @@
-about {
-    height: 100vh;
-    padding-top: 7rem;
-    overflow: hidden;
-    
-}
 
 .about_container {
-
     display: grid;
     grid-template-columns: 35% 40%;
     gap: 10%;
-
+    
 }
 .about_me {
     width: 100;
@@ -61,11 +54,14 @@ about {
     .about_container{
         grid-template-columns: 1fr;
         gap: 0;
+        
     }
 
     .about_me {
-        width: 50%;
-        margin: 2rem auto 4rem;
+        /* width: 50%;
+        margin: 2rem auto 4rem; */
+        width: 80%; /* Adjust the width as needed */
+        margin: 2rem auto 4rem; 
     }
 
     .about_content p{
@@ -75,13 +71,19 @@ about {
 }
 
 @media screen and (max-width: 600px) {
+
+
     .about_me {
-        width: 65%;
+        /* width: 65%;
         margin: 0 auto 3rem;
+         */
+         width: 100%; /* Adjust the width as needed */
+         margin: 0 auto 3rem;
     }
     
     .about_cards {
-        grid-template-columns: 1fr 1fr;
+        width: 100%; 
+        grid-template-columns: 1fr;
         gap: 1rem;
     }
 

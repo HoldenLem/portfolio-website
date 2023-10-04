@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 1024px) {
     .experience_container {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     
     }
 
@@ -51,7 +51,9 @@
 
 @media screen and (max-width: 600px) {
     .experience_container {
-        gap: 1rem
+        gap: 1rem;
+        grid-template-columns: 1fr;
+    
     
     }
     .experience_container > div {
