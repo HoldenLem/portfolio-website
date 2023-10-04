@@ -21,8 +21,12 @@
   
   --conteiner-width-lg: 75%;
   --conteiner-width-md: 86%;
-  --conteiner-width-md: 86%;
+  --conteiner-width-sm: 90%;
 
+}
+
+html  {
+  scroll-behavior: smooth;
 }
 ::-webkit-scrollbar{
   display: none;
@@ -54,9 +58,10 @@ section {
   margin-top: 8rem;
   height: 100vh;
   text-align: center;
+  padding: 5rem;
 }
 
-section > h2 section > h5 {
+section > h2, section > h5 {
   text-align: center;
   color: var(--color-light);
 }
@@ -106,13 +111,11 @@ img {
   width: 100%;
   object-fit: cover;
 }
-p {
-  text-align: start;
-}
+
 /*==================Media Queries=======================*/
 
 @media screen and (max-width: 1024px) {
-  .container{
+  .container {
     width: var(--conteiner-width-md);
   }
 
@@ -129,6 +132,6 @@ p {
   }
 
   section > h2 {
-    margin: 2rem;
+    margin-bottom: 2rem;
   }
 }

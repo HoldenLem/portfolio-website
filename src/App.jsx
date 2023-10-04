@@ -15,11 +15,10 @@ export const App = () => {
      <Header />
      <Nav />
      <Abbout />
-     <Contacts />
-     <Testimonials />
-     <Services />
-     <Portfolio />
      <Experience />
+     <Services />
+     <Contacts />
+     <Footer/>
     </>
   )
 }
