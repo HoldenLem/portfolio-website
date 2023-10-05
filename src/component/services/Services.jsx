@@ -24,11 +24,11 @@ export const Services = () => {
               </li>
               <li> 
                 <BiCheck className='service_icon'/>
-                <p>Junit</p>
+                <p>JUnit</p>
               </li>
               <li> 
                 <BiCheck className='service_icon'/>
-                <p> Mokito</p>
+                <p> Mockito</p>
               </li>
               <li> 
                 <BiCheck className='service_icon'/>
@@ -49,6 +49,10 @@ export const Services = () => {
               <li> 
                 <BiCheck className='service_icon'/>
                 <p> SQL</p>
+              </li>
+              <li> 
+                <BiCheck className='service_icon'/>
+                <p> Linux</p>
               </li>
             </ul>
         </article>
@@ -107,7 +111,7 @@ export const Services = () => {
             <ul className='service_list'>
               <li> 
                 <BiCheck className='service_icon'/>
-                <p> Java Script</p>
+                <p> JavaScript</p>
               </li>
               <li> 
                 <BiCheck className='service_icon'/>
@@ -115,7 +119,7 @@ export const Services = () => {
               </li>
               <li> 
                 <BiCheck className='service_icon'/>
-                <p>Css</p>
+                <p>CSS</p>
               </li>
               <li> 
                 <BiCheck className='service_icon'/>
